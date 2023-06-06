@@ -1,0 +1,15 @@
+.input, .result{
+    padding: 3px;
+    margin-bottom: 5px;
+    font: 15px sans-serif;
+}
+button{
+    margin: 1px;
+}
+
+.plus{
+    width: 47%;
+}
+.clear, .ans{
+    width: 46%;
+}
