@@ -11,6 +11,14 @@
   - Install the dependencies using `npm install` if required
   - Run the project using start script (refer to the package.json file for the start script)
 
+## HTML CSS Projects
+  - [Resume using HTML CSS](./Resume/)
+  - [Periodic Table using HTML CSS](./periodicTable/)
+  - [Building given layout using Flex](./flexDesign/)
+  - [Building a Responsive design](./responsiveDesign/)
+  - [Simple music player using HTML CSS](./musicPlayer/)
+
+
 ## React Projects
   - [TODO app using `useReducer` hook](./todo_useReducer/)
   - [Simple Counter app using React](./react-counter/)

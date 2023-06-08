@@ -1,0 +1,92 @@
+body{
+    font-size: 16px;
+}
+section{
+    width: 1500px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+#container{
+    width: 1400px;
+}
+.box{
+    border: 2px solid black; 
+    margin: 1px;
+    max-width: 50px;
+    max-height: 50px; 
+    width: 80px;
+    height: 100px;
+    text-align: center; 
+}
+
+#panelOne{
+    float: left; 
+}
+#panelOne .box{
+    background: #e68c8c;
+}
+#panelTwo .box{
+    background: #e68c8c;
+}
+#panelFive > .box:first-child {
+    background: #e68c8c;
+}
+
+#panelTwo{
+    float: left; 
+    position: relative; 
+    top: 55px; 
+}
+
+.panelThree{
+    float: left; 
+    position: relative; 
+    top: 165px; 
+}
+
+.panelThree .box{
+    background: #8cd4e6;
+}
+
+.panelFour{
+    float: left; 
+    position: relative; 
+    top: 55px; 
+}
+
+.panelFour .box{
+    background: #fcf973;
+}
+
+#panelFive{
+    float: left; 
+}
+
+#panelFive .box{
+    background: #fcf973;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+#lowerContainer{
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+
+.bottom{
+    float: left; 
+}
+
+#lowerContainer .bottom .box {
+    background: #77eb5a;
+}
+
+.head{
+    position: relative; 
+    top: 125px; 
+    left: 190px;
+}

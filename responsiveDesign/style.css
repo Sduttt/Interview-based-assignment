@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    height: 80px;
+    margin: 10px 0px;
+}
+.navLeft{
+    flex: 2;
+    justify-content: flex-start;
+    background: #2e61ec;
+    margin: 3px 10px;
+}
+.navRight{
+    flex: 5;
+    justify-content: flex-end;
+    background: #b3b0b0;
+    margin: 3px 10px;
+}
+
+.hero{
+    display: flex;
+    height: 250px;
+    background: gray;
+    margin: 15px 10px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+}
+
+.card{
+    margin: 10px;
+    background: #6596f0;
+    flex: 1;
+    height: 400px;
+    min-width: 300px;
+}
+
+.footer{
+    display: flex;
+    height: 250px;
+    background: #b3b0b0;
+    margin: 15px 10px;
+}
